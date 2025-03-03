@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,7 +16,11 @@
   <body>
     <header>
       <div>
-        <p class="header__text">Мой блог</p>
+        <a href="#" class="header__link"
+          ><p class="header__text">
+            <span class="header__logo">B</span>Мой блог
+          </p></a
+        >
         <nav>
           <ul class="header_navList">
             <li><a href="#">HTML и CSS</a></li>
@@ -33,13 +38,17 @@
           Теория цвета - Как цвет влияет на поведение потребителей
         </h1>
         <div class="preview__informations">
-          <img src="Ellipse 1.png" alt="" class="blog__photo" />
+          <img src="./resources/Ellipse 1.png" alt="Фото" class="blog__photo" />
           <p class="blog__name">
             Наталья Васильева <br />
             <span class="blog__specialization">Разработчик</span>
           </p>
         </div>
-        <img src="Rectangle 181.png" alt="" class="preview__image" />
+        <img
+          src="./resources/Rectangle 181.png"
+          alt="Инсталляция Персонального компьютера"
+          class="preview__image"
+        />
       </section>
       <section class="about">
         <h2 class="about__heading">
