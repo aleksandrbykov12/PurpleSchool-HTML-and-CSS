@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>3-Form</title>
+  </head>
+  <body>
+    <section class="register">
+      <h1 class="register__heading">Регистрация</h1>
+      <p class="register__text">
+        Уже есть аккаунт?
+        <span class="register__text-link"><a href="#">Войти</a></span>
+      </p>
+      <form action="#" class="register_form">
+        <input
+          type="text"
+          class="form--company"
+          id="form--company"
+          placeholder="Моя компания"
+        />
+        <input
+          type="text"
+          class="form--name"
+          id="form--name"
+          placeholder="Имя"
+        />
+        <input
+          type="text"
+          class="form--surname"
+          id="form--surname"
+          placeholder="Фамилия"
+        />
+        <input
+          type="email"
+          class="form--email"
+          id="form--email"
+          placeholder="E-Mail"
+        />
+        <button class="form--submitButton">Зарегистрироваться</button>
+        <input type="checkbox" class="form--checkbox" id="form--checkbox" />
+        <span class="form--checkbox-Text"
+          >Я прочитал и принимаю
+          <a href="#" class="form--checkbox-link">Условия пользования</a></span
+        >
+      </form>
+    </section>
+  </body>
+</html>
