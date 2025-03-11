@@ -7,18 +7,35 @@ header {
   gap: 80px;
 }
 
-header > div {
+.header__wrapper {
   display: flex;
   align-items: center;
   gap: 80px;
 }
 
-header input {
-  padding-left: 15px;
+.header__find {
+  padding-left: 40px;
   border-radius: 100px;
   width: 224px;
   height: 40px;
   background: rgba(31, 41, 55, 0.6);
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header__input-icon {
+  position: relative;
+}
+
+.header__input-icon::before {
+  position: absolute;
+  content: url(../resources/search.svg);
+  width: 14px;
+  height: 14px;
+  left: 15px;
+  top: 3px;
 }
 
 .header__text {
