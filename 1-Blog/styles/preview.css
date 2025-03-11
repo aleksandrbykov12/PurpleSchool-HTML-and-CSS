@@ -1,7 +1,22 @@
-.preview__text {
+.preview__text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
   margin-bottom: 14px;
+}
+
+.preview__text {
   font-size: 14px;
   text-align: center;
+  opacity: 0.6;
+}
+
+.preview__text-dot {
+  border-radius: 100px;
+  width: 4px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.6);
 }
 
 .preview__heading {
