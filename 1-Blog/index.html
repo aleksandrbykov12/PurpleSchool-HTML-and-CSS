@@ -14,14 +14,14 @@
     <title>1-Blog</title>
   </head>
   <body>
-    <header>
-      <div>
+    <header class="header">
+      <div class="header__wrapper">
         <a href="#" class="header__link"
           ><p class="header__text">
             <span class="header__logo">B</span>Мой блог
           </p></a
         >
-        <nav>
+        <nav class="header__navigations">
           <ul class="header_navList">
             <li><a href="#">HTML и CSS</a></li>
             <li><a href="#">Frontend</a></li>
@@ -29,13 +29,25 @@
           </ul>
         </nav>
       </div>
-      <input type="text" placeholder="Поиск" />
+      <div>
+        <label for="header__find" class="header__input-icon"></label>
+        <input
+          type="text"
+          placeholder="Поиск"
+          class="header__find"
+          id="header__find"
+        />
+      </div>
     </header>
     <main>
       <section class="preview">
-        <p class="preview__text">FRONTEND 12 мая 2024</p>
+        <div class="preview__text-wrapper">
+          <p class="preview__text">FRONTEND</p>
+          <div class="preview__text-dot"></div>
+          <p class="preview__text">12 мая 2024</p>
+        </div>
         <h1 class="preview__heading">
-          Теория цвета - Как цвет влияет на поведение потребителей
+          Теория цвета - Как цвет влияет на поведение<br />потребителей
         </h1>
         <div class="preview__informations">
           <img src="./resources/Ellipse 1.png" alt="Фото" class="blog__photo" />

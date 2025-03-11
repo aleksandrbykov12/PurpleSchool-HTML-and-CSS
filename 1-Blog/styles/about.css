@@ -1,0 +1,23 @@
+.about {
+  margin-bottom: 95px;
+  max-width: 708px;
+}
+
+.about__heading {
+  margin-bottom: 40px;
+  font-size: 20px;
+  line-height: 160%;
+}
+
+.about__text {
+  font-size: 16px;
+  line-height: 187%;
+}
+
+.about__text {
+  margin-bottom: 30px;
+}
+
+.about__text:last-child {
+  margin-bottom: 0;
+}
